@@ -8,6 +8,16 @@
 % sudo apt install libdeflate-dev
 % sudo apt install doctest-dev
 
+ cmake -DUSE_MULTIMEDIA=none -DUSE_PANDOC=off ../
+
+
+% cd cyclonedds/
+% mkdir build
+% cd build/
+% cmake ../
+% make
+% sudo make install
+
 
  
 
